@@ -10,7 +10,8 @@ driver.find_element_by_xpath("/html[1]/body[1]/div[1]/div[18]/div[1]/div[1]/div[
 time.sleep(4)
 driver.find_element_by_xpath("//div[contains(text(),'Earth Day favorites')]").click()
 driver.find_element_by_xpath("//span[contains(text(),'WaterWipes Biodegradable Original Baby Wipes, 99.9')]").click()
-driver
+driver.find_element_by_id()
+
 time.sleep(10)
 driver.close()
 
